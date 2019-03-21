@@ -1,10 +1,7 @@
-# Digit Recognizer kaggle competition main file
-
-# Imports
-import numpy as np
 import pandas as pd
-import sys # For adding 
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Major function calls
-digits_dataset = pd.read_csv('train.csv', sep=",")
-print(digits_dataset.describe())
+default_path = '../input/'
+
